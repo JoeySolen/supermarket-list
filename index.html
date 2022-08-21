@@ -10,22 +10,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
 </head>
 <body style="background-color: rgb(28, 78, 87); font-family: 'Roboto', sans-serif;">
+
     <header>
+        <!--TÍTULO-->
         <nav style="background-color: rgb(131, 236, 117); border-radius: 5px; margin: 5px; text-align: center; color: rgb(38, 95, 52); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <h1 style="margin-bottom: 0px;">🛒 Lista del supermercado 💵</h1>
         </nav>
     </header>
     <main>
+
+        <!--PÁRRAFO-->
         <section>
             <article style="color: #fff; margin:5px; padding: 5px;">
                 <h2>Esta es mi lista del supermercado</h2>
                 <p>A continuación les presento mi lista del supermercado, apliqué algunos conceptos que ya conocía para reforzar y complementar en este curso. Para el diseño de mi lista utilicé estilos en el mismo archivo html y no en un archivo CSS aparte.</p>
             </article>
         </section>
+
+        <!--FORMULARIO-->
+        <section style="background-color: rgb(255, 235, 205); border-radius: 5px; margin: 5px; padding: 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <form action="">
+                <label for="nombre">
+                    <span>¿Cuál es tu nombre?</span>
+                    <input type="text" id="nombre" placeholder="Escribe tu nombre">
+                </label>
+                <label for="dia-semana">
+                    <span>¿Qué fecha es hoy?</span>
+                    <input type="date" id="dia-semana">
+                </label>
+                <label for="hora">
+                    <span>¿Qué hora es?</span>
+                    <input type="time" id="hora">
+                </label>
+            </form>
+        </section>
+        <section style="background-color: rgb(255, 235, 205); border-radius: 5px; margin: 5px; padding: 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <form action="">
+                <label for="calendario">
+                    <span>Calendario</span>
+                    <input type="datetime-local" id="calendario" name="calendario">
+                </label>
+                <input type="submit" name="" id="">
+            </form>
+        </section>
+        <!--VIDEO-->
+
+        <section style="background-color: rgb(255, 235, 205); border-radius: 5px; margin: 5px; padding: 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <video src="./video/comida.mp4#t=05,10" controls preload="auto" style="margin: 5px; padding: 5px; width: 96%;"></video>
+        </section>
+
+        <!--LISTAS ORDENADAS Y DESORDENADAS, IMÁGENES Y ENLACES-->
         <section style="background-color: rgb(255, 235, 205); border-radius: 5px; margin: 5px; padding: 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <ul style="list-style: none;">
                 <li><h3 style="margin: 0px;">🍒 Frutas</h3></li>
                 <hr style="margin-top: 0px; margin-right: 45px;">
+
+                <!--PRIMERA LISTA-->
                 <ol>
                     <figure style="width:40%; display: flex; align-items: center;">
                         <img src="./img/manzana-royal.png" alt="Manzana Royal" style="width: 30%; margin-right: 30px;">
@@ -42,6 +82,8 @@
                 </ol>
                 <li><h3 style="margin-bottom: 0px;">🥬 Verduras</h3></li>
                 <hr style="margin-top: 0px; margin-right: 45px;">
+
+                <!--SEGUNDA LISTA-->
                 <ol>
                     <figure style="width:40%; display: flex; align-items: center;">
                         <img src="./img/lechuga.png" alt="Manzana Royal" style="width: 30%;  margin-right: 30px;">
@@ -55,8 +97,9 @@
                         <img src="./img/repollo.png" alt="Manzana Royal" style="width: 30%;  margin-right: 30px;">
                         <li><a href="https://cutt.ly/QXRYmLT" target="_blank" style="text-decoration: none; color: rgb(66, 27, 0);">Repollo</a></li>
                     </figure>
-                    
                 </ol>
+
+                <!--TERCERA LISTA-->
                 <li><h3 style="margin-bottom: 0px;">🥩 Carnes</h3></li>
                 <hr style="margin-top: 0px; margin-right: 45px;">
                 <ol>
